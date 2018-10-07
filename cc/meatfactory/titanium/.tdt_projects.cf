@@ -1,0 +1,16 @@
+{
+  projects = {
+    meatfactory = {
+      sources = {
+        src = true,
+      },
+      titanium = "latest",
+      settings = {
+        output = "main.lua",
+        init = "src/init.lua",
+      },
+      class_sources = {},
+    },
+  },
+  current_project = "meatfactory",
+}

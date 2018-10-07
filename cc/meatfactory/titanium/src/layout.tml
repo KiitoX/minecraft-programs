@@ -1,0 +1,53 @@
+<PageContainer X=1 Y=1
+    width="$application.width"
+    height="$application.height"
+    projector="main" mirrorProjector=false>
+  <Page id="right" xScrollAllowed=false>
+    <TextContainer X=2 Y=1 class="title"
+      width="$application.width - 2" height=3
+      text="manage right animal pen"/>
+    <Button X=2 Y=5 width=38 height=9 class="enable"
+      id="right_enable" text="$self.texta"
+      texta="animals are not being bred"
+      textb="animals are being bred"
+      coloura="grey" colourb="lime" side="left"/>
+    <Button X=2 Y=15 width=38 height=9 class="toggle"
+      id="right_toggle" text="$self.texta"
+      texta="animals are being slaughtered"
+      textb="animals are being liquified"
+      coloura="red" colourb="brown" side="right"/>
+    <Button X=42 Y=5 width=15 height=19 id="right_return"
+      text="return to menu" class="nav"/>
+  </Page>
+  <Page id="main" xScrollAllowed=false>
+    <TextContainer X=2 Y=1 class="title"
+      width="$application.width - 2" height=3
+      text="manage meat factory"/>
+    <Button X=2 Y=5 width=15 height=19 id="go_right"
+      text="manage right animal pen" class="nav"/>
+    <Button X=19 Y=5 width=21 height=19
+      id="main_feed" text="$self.texta"
+      texta="baby animals are not being fed"
+      textb="baby animals are being fed"
+      coloura="grey" colourb="orange" side="top"/>
+    <Button X=42 Y=5 width=15 height=19 id="go_left"
+      text="manage left animal pen" class="nav"/>
+  </Page>
+  <Page id="left" xScrollAllowed=false>
+    <TextContainer X=2 Y=1 class="title"
+      width="$application.width - 2" height=3
+      text="manage left animal pen"/>
+    <Button X=2 Y=5 width=15 height=19 id="left_return"
+      text="return to menu" class="nav"/>
+    <Button X=19 Y=5 width=38 height=9 class="enable"
+      id="left_enable" text="$self.texta"
+      texta="animals are not being bred"
+      textb="animals are being bred"
+      coloura="grey" colourb="lime" side="front"/>
+    <Button X=19 Y=15 width=38 height=9 class="toggle"
+      id="left_toggle" text="$self.texta"
+      texta="animals are being slaughtered"
+      textb="animals are being liquified"
+      coloura="red" colourb="brown" side="back"/>
+  </Page>
+</PageContainer>

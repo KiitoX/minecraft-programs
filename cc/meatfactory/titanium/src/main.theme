@@ -1,0 +1,20 @@
+<TextContainer class="title">
+  <backgroundColour>lightBlue</backgroundColour>
+  <colour>black</colour>
+  <verticalAlign>centre</verticalAlign>
+  <horizontalAlign>centre</horizontalAlign>
+</TextContainer>
+ 
+<Button class="nav">
+  <backgroundColour>blue</backgroundColour>
+  <activeBackgroundColour>lightBlue</activeBackgroundColour>
+</Button>
+ 
+<Button>
+  <backgroundColour>gray</backgroundColour>
+  <activeBackgroundColour>white</activeBackgroundColour>
+  <colour>white</colour>
+  <activeColour>black</activeColour>
+  <verticalAlign>centre</verticalAlign>
+  <horizontalAlign>centre</horizontalAlign>
+</Button>
