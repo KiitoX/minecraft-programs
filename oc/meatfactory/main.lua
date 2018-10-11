@@ -19,6 +19,9 @@ screen.setTouchModeInverted(true)
 -- https://github.com/IgorTimofeev/GUI
 local GUI = require("GUI")
 
+-- TODO: interesting would be, to add a button to change the type of food used in the breeding machine.
+-- This would use OpenComputers' inventory controller upgrade. (https://ocdoc.cil.li/component:inventory_controller)
+
 -- initialize window container
 local window = GUI.fullScreenContainer()
 -- set the background color
